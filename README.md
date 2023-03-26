@@ -15,3 +15,7 @@ path for init pluggins make dir <code>~/.config/nvim/.vim/plugged</code>
 para agregar la variable de entorno en termux 
 agrega la siguiente linea en el archivo <code>~/.bashrc</code>
 <code>export START_NVIM_PATH=~/.config/nvim/.vim/plugged</code>
+
+para agregar una fuente en termux
+copia la fuent descargada  a `~/.termux/font.ttf` o a` ~/.termux/font.otf`
+y ejecuta  `termux-reload-settings`
